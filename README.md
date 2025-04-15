@@ -1,4 +1,4 @@
-# Sistema de Tarefas
+# Sistema de Gestão de Tarefas
 
 ## Tecnologias
 - Backend: Node.js, Express, Prisma, SQLite
