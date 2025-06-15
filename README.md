@@ -1,15 +1,22 @@
 # Sistema de Gestão de Tarefas
 
 ## Tecnologias
-- Backend: Node.js, Express, Prisma, SQLite
-- Frontend: React, Bootstrap
+- **Backend:**
+  - Node.js
+  - Express
+  - Prisma
+  - SQLite
+- **Frontend:**
+  - React
+  - Bootstrap
 
 ## Instalação
+
 ```bash
-# Backend
-cd todo-api
+# Backend (API REST)
+cd todo-backend/backend
 npm install
-npx prisma migrate dev
+node index.js
 
 # Frontend
 cd todo-frontend
