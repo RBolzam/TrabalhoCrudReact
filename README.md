@@ -13,10 +13,10 @@
 ## Instalação
 
 ```bash
-# Backend (API REST)
-cd todo-backend/backend
+# Backend
+cd todo-api
 npm install
-node index.js
+npx prisma migrate dev
 
 # Frontend
 cd todo-frontend
